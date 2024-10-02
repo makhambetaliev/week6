@@ -71,5 +71,17 @@ int main(){
     // e2=e+3;
     // cout<<d2<<" "<<e2<<" "<<b2<<" "<<c2<<endl;
 
+        int a,small,b;
+    cin>>a;
+    cin>>b;
+    small=b;
+    for(int i=0;i<a-1;i++) {
+        cin>>b;
+        if(b<=small) {
+            small=b;
+        }
+    }
+    cout<<small;
+
     
 }
